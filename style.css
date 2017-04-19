@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+.section {
+	padding: 70px 0;
+	/*height: 30em;*/
+}
+
+#uxui {
+	padding: 40px;
+}
+
+.greeting {
+	background: url(img/greetimg.png) no-repeat center center fixed;
+	background-size: cover;
+	display: block;
+	/*height: 50em;*/
+}
+
+.garden {
+	background-color: cadetblue;
+}
+.garden:hover { 
+    background-color: rgba(92,139,141,0.9);
+}
+.lux {
+	background-color: darkseagreen;
+}
+.lux:hover { 
+    background-color: rgba(135,168,122,0.9);
+}
+.bos {
+	background-color: gainsboro;
+}
+.bos:hover { 
+    background-color: rgba(34,34,34,0.4);
+}
+.aaa {
+	background-color: indianred;
+}
+.aaa:hover { 
+    background-color: rgba(175,80,80,0.5);
+}
+.bandier {
+	background-color: lavender;
+}
+.bandier:hover { 
+    background-color: rgba(251,237,34,0.5);
+}
+
+
+
+.skills {
+	padding-top: 45px;
+}
+.glyphicon-user {
+	font-size: -webkit-xxx-large; 
+	color: teal;
+}
+.glyphicon-console {
+	font-size: -webkit-xxx-large; 
+	color: blueviolet;
+}
