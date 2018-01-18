@@ -1,9 +1,13 @@
-$(function() {
+(function(){
 
 	'use strict';
 	var window_height = $(window).height(),
        content_height = window_height - 30;
 
-    $('#banner').height(content_height);
+    $('.backimg').height(content_height);
+
+    $(".words").mouseover(function() {
+	  $( "a" ).effect( "shake", "fast" );
+	});
 
  });

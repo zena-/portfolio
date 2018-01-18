@@ -1,72 +1,112 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-* {
-	font-family: 'Raleway', sans-serif;
+/*.body {
+  background: url(img/zpor.png) no-repeat center center ;
+  background-size:100% 100%;
+  width: 100%;
+  height: 100em;
 }
-
-.section {
-	padding: 70px 0;
-	/*height: 30em;*/
-}
-
-#uxui {
-	padding: 40px;
-}
-
-.greeting {
-	background: url(img/greetimg.png) no-repeat center center fixed;
-	background-size: cover;
-	display: block;
-	/*height: 50em;*/
-}
-
-#boxes{
-	background:gainsboro; 
-	color: black; 
-	border-radius: 30px;
-}
-
-.garden {
-	background-color: cadetblue;
-}
-.garden:hover { 
-    background-color: rgba(92,139,141,0.9);
-}
-.lux {
-	background-color: darkseagreen;
-}
-.lux:hover { 
-    background-color: rgba(135,168,122,0.9);
-}
-.bos {
-	background-color: gainsboro;
-}
-.bos:hover { 
-    background-color: rgba(34,34,34,0.4);
-}
-.aaa {
-	background-color: indianred;
-}
-.aaa:hover { 
-    background-color: rgba(175,80,80,0.5);
-}
-.bandier {
-	background-color: lavender;
-}
-.bandier:hover { 
-    background-color: rgba(251,237,34,0.5);
-}
+*/
 
 
+.words {
+  font-family: 'Quicksand', sans-serif;
+  text-align: right;
+  color: white;
+  padding-right: 5px;
+  position: absolute;
+  top: 0;
+  right: 2px;
+  z-index: 999;
+  width: 67em;
+  height: 70em;
+}
+.inner {
+  top: 0;
+  right: 2px;
+  z-index: 999;
+  position: relative;
+}
 
-.skills {
-	padding-top: 45px;
+.hh {
+  font-size: 67px;
+  overflow: scroll;
+  height: 850px;
+  background: rgba(34,34,34,0.2);
 }
-.glyphicon-user {
-	font-size: -webkit-xxx-large; 
-	color: teal;
+
+a:link {
+    color: white;
 }
-.glyphicon-console {
-	font-size: -webkit-xxx-large; 
-	color: blueviolet;
+a:visited {
+  color: lawngreen;
+}
+a:hover {
+  color: hotpink; 
+  text-decoration: underline;
+  font-size: 77px;
+}
+a:active {
+    color: white;
+}
+
+.zimg {
+  width: 42%;
+  margin: -104em 0px 0 -146px;
+  position: absolute;
+  transform: rotate(-12deg);
+}
+
+.goldy img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media only screen and (max-width: 971px) {
+    .hh {
+      font-size: 50px;
+      height: 650px;
+    }
+}
+
+@media only screen and (max-width: 805px) {
+    .words {
+      height: 63em;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .words {
+      height: 60em;
+    }
+    .hh {
+      font-size: 48px;
+      height: 550px;
+    }
+}
+
+@media only screen and (max-width: 605px) {
+    .words {
+      height: 20px;
+    }
+    .hh {
+      font-size: 28px;
+      height: 250px;
+    }
 }
